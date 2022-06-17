@@ -18,20 +18,19 @@ export default function App() {
   const [isFetching, setIsFetching] = useState(false); //if app is fetching products
   const [error, setError] = useState(""); // use to display a message
   const [isOpen, setIsOpen] = useState(false); //if sidebar is open
-  const [shoppingCart, setShoppingCart] = useState([]); //ASK
-  const [checkingForm, setCheckingForm] = useState(null);
+  // const [shoppingCart, setShoppingCart] = useState([]); //ASK
+  // const [checkingForm, setCheckingForm] = useState(null);
   const [showDescription, setShowDesciption] = useState(false);
-
-  //const [searchWord, setSearchWord] = useState("");
+  const [searchWord, setSearchWord] = useState("");
 
   //HANDLERS
-  const handleOnToggle = () => {
-    if (isOpen) {
-      setIsOpen(true);
-    } else {
-      setIsOpen(false);
-    }
-  }
+  // const handleOnToggle = () => {
+  //   if (isOpen) {
+  //     setIsOpen(true);
+  //   } else {
+  //     setIsOpen(false);
+  //   }
+  // }
   // handleOnCheckoutFormChange
   // handleOnSubmitCheckoutForm
 
@@ -47,19 +46,6 @@ export default function App() {
   useEffect(() => {
     getData();
   }, []);
-  
-  // const filteredProducts = data.filter((products) => {
-  //   return products.food_category === selectedCategory;
-  // }) 
-
-  // function updateProps() {
-  //   products.map((product) => {
-  //     if (product.category == /* */) {
-
-  //     }
-  //   })
-  // }
-
 
   return (
     <div className="app">
@@ -68,11 +54,14 @@ export default function App() {
         <main> 
           <Navbar />
           <Hero />
-          <Search products={products} setProducts={setProducts}/>  
+          <Search products={products} setProducts={setProducts} 
+          searchWord={searchWord} setSearchWord={setSearchWord}/>  
           <Routes>
             <Route path="/" element={<Home products={products} 
-            showDescription={showDescription}/>} />
-            <Route path="/products/:productId" element={<ProductDetail products={products}/> } />
+            showDescription={showDescription} setShowDesciption={setShowDesciption}
+            searchWord={searchWord} setSearchWord={setSearchWord}/>} />
+            <Route path="/products/:productId" element={<ProductDetail products={products}
+            showDescription={showDescription} setShowDesciption={setShowDesciption}/> } />
           </Routes> 
 
         </main>       

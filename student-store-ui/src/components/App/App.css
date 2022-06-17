@@ -15,4 +15,10 @@
   flex-direction: column;
 }
 
+.hidden {
+  display: none;
+}
 
+.true {
+  color: red;
+}

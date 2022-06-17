@@ -13,35 +13,50 @@ export default function Search(props) {
          props.setProducts(originalProduct);
       } else {      
       const updateProp = originalProduct.filter((element) => {
-         console.log(element.category, selectedCategory);
+         //console.log(element.category, selectedCategory);
          return element.category == selectedCategory;
       })
       props.setProducts(updateProp);
       }
    }
+
    const getData = async () => {
       const { data } = await axios.get("https://codepath-store-api.herokuapp.com/store");  
       return data.products;
     };
+
+    async function updatePropsSearch(str) { 
+      let originalProduct = await getData();      
+      const updateProp = originalProduct.filter((element) => {
+        return element.name.toLowerCase().includes(str.toLowerCase());
+      })
+      props.setProducts(updateProp);
+    }
+   //}
    
    //console.log(updateProp);
    // const updateProps = props.products.category.includes("food");
    // console.log(updateProps);
-
-   // const filteredProducts = props.filter((products) => {
-   //    return if (products.category == category);
-   // }) 
-
-   // const [inputText, setInputText] = useState("");
-   // const handleText = () => {
-      
-   // }   
+  
+    // async function searchInput(input) {
+    //   //let originalProduct = await getData();
+    //   //console.log(originalProduct);
+    //   console.log(input);
+    //   let updateProp = props.products.name.includes(input);
+    //   props.setProducts(updateProp);
+    // }
+    function handleSearchWord(input) {
+      props.setSearchWord(input);
+      updatePropsSearch(input);
+    }
 
    return (
       <div className="subbar">
       <div className="input">
       <form action="">
-        <input className="textarea" type="text" placeholder="Search.."/>
+        <input className="textarea" type="search" 
+        value={props.searchWord} placeholder="Search.." 
+        onInput={(input) => handleSearchWord(input.target.value)}/>
         <button type="submit"><img src={submitPic} className="button"/></button>
       </form>
       </div>

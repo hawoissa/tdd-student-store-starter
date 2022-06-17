@@ -3,12 +3,14 @@ import Navbar from "../Navbar/Navbar"
 import Sidebar from "../Sidebar/Sidebar"
 import Home from "../Home/Home"
 import Hero from "../Hero/Hero"
+import Search from "../Search/Search"
 import "./App.css"
 import { useState } from "react"
 import { useEffect } from "react"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import axios from "axios"
 import submitPic from "../pictures/search.png"
+import ProductDetail from "../ProductDetail/ProductDetail"
 
 export default function App() {
   //STATE VARIABLILEs
@@ -18,17 +20,23 @@ export default function App() {
   const [isOpen, setIsOpen] = useState(false); //if sidebar is open
   const [shoppingCart, setShoppingCart] = useState([]); //ASK
   const [checkingForm, setCheckingForm] = useState(null);
+  const [showDescription, setShowDesciption] = useState(false);
 
   //const [searchWord, setSearchWord] = useState("");
 
   //HANDLERS
-
+  const handleOnToggle = () => {
+    if (isOpen) {
+      setIsOpen(true);
+    } else {
+      setIsOpen(false);
+    }
+  }
   // handleOnCheckoutFormChange
   // handleOnSubmitCheckoutForm
 
   const getData = async () => {
-    const { data } = await axios.get("https://codepath-store-api.herokuapp.com/store");
-    
+    const { data } = await axios.get("https://codepath-store-api.herokuapp.com/store");  
     if (data.products.length > 0) {
       setProducts(data.products);
     } else {
@@ -40,37 +48,31 @@ export default function App() {
     getData();
   }, []);
   
-  // const currentMenuItems = data.filter((item) => {
-  //   return item.food_category === selectedCategory && item.restaurant === selectedRestaurant;
-  // })
+  // const filteredProducts = data.filter((products) => {
+  //   return products.food_category === selectedCategory;
+  // }) 
+
+  // function updateProps() {
+  //   products.map((product) => {
+  //     if (product.category == /* */) {
+
+  //     }
+  //   })
+  // }
 
 
   return (
     <div className="app">
       <BrowserRouter>
+      <Sidebar />
         <main> 
           <Navbar />
-          <Sidebar />  
           <Hero />
-          <div className="subbar">
-            <div className="input">
-            <form action="">
-              <input type="text" placeholder="Search.."/>
-              <button type="submit"><img src={submitPic} className="button"/></button>
-            </form>
-            </div>
-            <div className="category">
-              <ul> 
-                <li><button>All Categories</button></li>
-                <li><button>Clothing</button></li>
-                <li><button>Food</button></li>
-                <li><button>Accessories</button></li>
-                <li><button>Tech</button></li>
-              </ul>
-            </div>
-          </div>
+          <Search products={products} setProducts={setProducts}/>  
           <Routes>
-            <Route path="/" element={<Home products={products}/>} />
+            <Route path="/" element={<Home products={products} 
+            showDescription={showDescription}/>} />
+            <Route path="/products/:productId" element={<ProductDetail products={products}/> } />
           </Routes> 
 
         </main>       

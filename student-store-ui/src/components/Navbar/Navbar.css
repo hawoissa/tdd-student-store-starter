@@ -1,6 +1,7 @@
 .navbar {
    display: flex;
    background-color: aliceblue;
+   
    color: black;
    justify-content: space-around;
    padding: 15px;

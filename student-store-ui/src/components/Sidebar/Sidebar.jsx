@@ -8,14 +8,15 @@ import pic3 from "../pictures/clipboard.png"
 export default function Sidebar( ) {
   return (
     <section className="sidebar">
-      <h1>Sidebar</h1>
-      <div>
-
-      </div>
+      
+      {/* <div className="arrow">
+        <img src={arrow} alt="" />
+      </div> */}
       <div className="i">
-        {/* <img src={pic1} alt="" />
+        <img src={arrow} alt="" />
+        <img src={pic1} alt="" />
         <img src={pic2} alt="" />
-        <img src={pic3} alt="" /> */}
+        <img src={pic3} alt="" />
       </div>
     </section>
   )

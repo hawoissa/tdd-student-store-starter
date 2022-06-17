@@ -1,0 +1,11 @@
+.footer {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   background-color: aliceblue;
+}
+
+h6 {
+   color: gray;
+   
+}

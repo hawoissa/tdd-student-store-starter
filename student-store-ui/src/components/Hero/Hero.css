@@ -1,0 +1,10 @@
+.banner {
+   width: 698px;
+   height: 350px;
+   background-color: aliceblue;
+   color: black;
+   display: block;
+   justify-self: center;
+   padding: 25px;
+   margin-bottom: 30px;
+}

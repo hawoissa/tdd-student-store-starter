@@ -1,0 +1,15 @@
+.contact {
+   
+}
+.contactinfo {
+   height: 185.88px;
+   width: 450px;
+   
+   flex-direction: column;
+   background-color: aliceblue;
+   color: black;
+   padding: 20px;
+   padding-left: 40px;
+   margin-bottom: 30px;
+}
+

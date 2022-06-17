@@ -6,3 +6,16 @@
   display: flex;
   flex-direction: column;
 }
+
+.button {
+  width: 10px;
+  height: 10px;
+}
+
+.category > ul { 
+   display: flex;   
+   text-decoration: none;
+   list-style: none;
+   gap: 15px;
+}
+

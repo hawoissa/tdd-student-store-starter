@@ -1,11 +1,11 @@
 .footer {
-   width: 74%;
-   margin: auto;
-   margin-bottom: 30px;
+   background-color: whitesmoke;
 }
 
 .footer .content  {
    display: flex;
+   width: 74%;
+   margin: auto;
    flex-direction: row;
    justify-content: space-between;
    padding: 20px 10px;

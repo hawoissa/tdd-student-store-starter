@@ -13,9 +13,10 @@
 .productgrid .content .grid {
    display: flex;
    flex-direction: row;
-   flex-wrap: wrap;
+   flex-wrap: wrap;  
 }
 
 .productgrid .content h1 {
    padding-bottom: 10px;
+   padding-left: 20px;
 }

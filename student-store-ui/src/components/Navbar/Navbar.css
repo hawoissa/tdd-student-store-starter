@@ -63,5 +63,9 @@
    padding-left: 20px;
    text-decoration: none;
 } 
+.navbar .content .links .link {
+   color: white;
+}
+
 
 

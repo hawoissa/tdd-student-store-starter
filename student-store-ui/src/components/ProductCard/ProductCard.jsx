@@ -11,9 +11,19 @@ export default function ProductCard(props) {
          <div className="imgs">
             <Link to={`/products/${props.id}`}><img src={props.pic} alt="" /></Link>
          </div>
-         <h3>{props.name}</h3>
-         <h5>${props.price}</h5>
-         <p>{props.description}</p>
+         <div className="words">
+            <div className="info">
+               <p>{props.name}</p>
+               <p className="rating">⭐️⭐️⭐️⭐️⭐️</p>
+               <h5>${props.price}</h5>
+            </div>
+            <div className="description">
+               <p>{props.description}</p>
+            </div>
+            <div className="quantity">
+
+            </div>
+         </div>
       </div>
    )
 }

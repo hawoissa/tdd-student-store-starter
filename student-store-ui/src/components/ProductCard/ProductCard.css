@@ -1,10 +1,12 @@
+/*  WHEN NOT CLICKED ON */
 .productcard {
-   padding-bottom: 10px;
-
-   margin-bottom: 10px;
+   width: 250px;
+   border: 1px solid black;
+   margin: 20px;
+   background-color: whitesmoke;
 }
 
-.productcard h1 {
+.productcard h1, .productcard .description {
    display: none;
 }
 
@@ -13,10 +15,42 @@
    width: 248px;
 }
 
+.productcard .info {
+   display: flex;
+   flex-direction: column;
+   max-width: 60%;
+   padding: 10px;
+   font-size: 15px;
+   font-weight: 500;
+
+}
+
+/* BUTTONS NEEDED*/
+
+/*  WHEN CLICK ON  */
+
 .productcard.show {
-   color: red;
+   margin: 20px auto;
    height: 662px;
    width: 800px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   border: none;
+   background: none;
+}
+
+.productcard.show .words {
+   display: flex;
+   flex-direction: row;
+   border: 1px solid black;
+   padding-right: 5px;
+}
+
+.productcard.show .words .description {
+   display: block;
+   max-width: 70%;
+   padding: 10px;
 }
 
 .productcard.show h1 {
@@ -24,7 +58,7 @@
 }
 
 .productcard.show img {
-   width: 798px;
+   width: 800px;
    height: 568px;
 }
 

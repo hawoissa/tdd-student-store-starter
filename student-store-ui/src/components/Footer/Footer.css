@@ -18,10 +18,9 @@
    align-items: flex-start;
 }
 
-.footer .content .link-column .link-titles {
-   color: red;
-}
+
 
 h6 {
    color: gray;
+   padding-top: 10px;
 }

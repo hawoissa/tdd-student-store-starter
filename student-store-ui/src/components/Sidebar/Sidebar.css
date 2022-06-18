@@ -9,6 +9,7 @@
 .sidebar {
    background-color: #2c4047;
    padding: 10px;  
+   
   
 }
 
@@ -16,6 +17,8 @@
    position: fixed;
    background-color: #2c4047;
    height: 100%;
+   border-right: 1px solid white;
+   
 }
 
 .sidebar .content .i {

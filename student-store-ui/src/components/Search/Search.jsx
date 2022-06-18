@@ -53,15 +53,16 @@ export default function Search(props) {
    return (
       <div className="subbar">
       <div className="content">
-        <div className="input">
+        <div className="row">
         <form >
           <input className="textarea" type="search" 
           value={props.searchWord} placeholder="Search.." 
           onInput={(input) => handleSearchWord(input.target.value)}/>
-          <button type="submit"><img src={submitPic} className="button"/></button>
+          <button className="submit" type="submit"><img src={submitPic} className="button"/></button>
         </form>
         </div>
-        <div className="category">
+        <div className="row">
+          <div className="categories">
           <ul> 
             <li><button className="all" onClick={() => updateProps("all")}>All Categories</button></li>
             <li><button className="clothing" onClick={() => updateProps("clothing")} >Clothing</button></li>
@@ -69,6 +70,7 @@ export default function Search(props) {
             <li><button className="accessories" onClick={() => updateProps("accessories")}>Accessories</button></li>
             <li><button className="tech" onClick={() => updateProps("tech")}>Tech</button></li>
           </ul>
+          </div>
         </div>
       </div>
     </div>

@@ -1,6 +1,21 @@
-.grid {
+.productgrid {
+   width: 100%;
+   display: block;
+   text-decoration: none;
+}
+
+.productgrid .content {
+   height: 100%;
+   max-width: 80%;
+   margin: 50px auto;
+}
+
+.productgrid .content .grid {
    display: flex;
+   flex-direction: row;
    flex-wrap: wrap;
-   padding: 20px;
-   justify-content: space-between;
+}
+
+.productgrid .content h1 {
+   padding-bottom: 10px;
 }

@@ -6,16 +6,18 @@ export default function ProductGrid(props) {
    
    return (
       <div className="productgrid">
-         <div>
-            <h1>Best Selling Products</h1>
-         </div>
-         <div className="grid">       
-            {props.props.products.map((product, index) => {
-            return <ProductCard key={index} name={product.name} 
-               price={product.price} pic={product.image} 
-               category={product.category} id={product.id} 
-               description={props.description} showDescription={false}/>
-            })}
+         <div className="content">
+            <div>
+               <h1>Best Selling Products</h1>
+            </div>
+            <div className="grid">       
+               {props.props.products.map((product, index) => {
+               return <ProductCard key={index} name={product.name} 
+                  price={product.price} pic={product.image} 
+                  category={product.category} id={product.id} 
+                  description={props.description} showDescription={false}/>
+               })}
+            </div>
          </div>
       </div>
    )

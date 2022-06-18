@@ -13,8 +13,8 @@
 
 .subbar .content .input {
    height: 50%;
-
 }
+
 
 input {
    width: 198px;
@@ -26,6 +26,35 @@ input {
 }
 
 button {
-   height: 40px;
-   width: 40px;
+   border: none;
+   background: none;
 }
+
+.row .categories ul {
+   display: flex;
+   flex-direction: row;
+   margin: 10px 0 10px 0;
+   width: 100%;
+ }
+
+ .categories ul, .buttons{
+   display: flex;
+   flex-direction: row;
+   
+ }
+ 
+ .categories ul {
+   justify-content: space-evenly;
+   width: 90%;
+   gap:150px;
+   margin-left: 50px;
+   color:black;
+   font-size: 18px;
+ }
+
+.categories ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+ }
+

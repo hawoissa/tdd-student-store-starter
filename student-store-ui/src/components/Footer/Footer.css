@@ -1,15 +1,25 @@
 .footer {
-   display: flex;
-   flex-direction: row;
-   justify-content: space-around;
+   width: 74%;
+   margin: auto;
+   margin-bottom: 30px;
 }
 
-.footer-category  {
-   width: 90px;
-   height: 90px;
+.footer .content  {
    display: flex;
    flex-direction: row;
-   justify-content: space-around;
+   justify-content: space-between;
+   padding: 20px 10px;
+}
+
+.footer .content .link-column {
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: flex-start;
+}
+
+.footer .content .link-column .link-titles {
+   color: red;
 }
 
 h6 {

@@ -4,10 +4,10 @@ import "./ProductCard.css"
 import { Link } from "react-router-dom"
 
 export default function ProductCard(props) {
-
    let description = props.showDescription ? "show" : ""; 
    return (
       <div className={`productcard ${description}`}>
+         <h1>Product #{props.id}</h1>
          <div className="imgs">
             <Link to={`/products/${props.id}`}><img src={props.pic} alt="" /></Link>
          </div>

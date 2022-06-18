@@ -52,22 +52,24 @@ export default function Search(props) {
 
    return (
       <div className="subbar">
-      <div className="input">
-      <form action="">
-        <input className="textarea" type="search" 
-        value={props.searchWord} placeholder="Search.." 
-        onInput={(input) => handleSearchWord(input.target.value)}/>
-        <button type="submit"><img src={submitPic} className="button"/></button>
-      </form>
-      </div>
-      <div className="category">
-        <ul> 
-          <li><button className="all" onClick={() => updateProps("all")}>All Categories</button></li>
-          <li><button className="clothing" onClick={() => updateProps("clothing")} >Clothing</button></li>
-          <li><button className="food" onClick={() => updateProps("food")}>Food</button></li>
-          <li><button className="accessories" onClick={() => updateProps("accessories")}>Accessories</button></li>
-          <li><button className="tech" onClick={() => updateProps("tech")}>Tech</button></li>
-        </ul>
+      <div className="content">
+        <div className="input">
+        <form >
+          <input className="textarea" type="search" 
+          value={props.searchWord} placeholder="Search.." 
+          onInput={(input) => handleSearchWord(input.target.value)}/>
+          <button type="submit"><img src={submitPic} className="button"/></button>
+        </form>
+        </div>
+        <div className="category">
+          <ul> 
+            <li><button className="all" onClick={() => updateProps("all")}>All Categories</button></li>
+            <li><button className="clothing" onClick={() => updateProps("clothing")} >Clothing</button></li>
+            <li><button className="food" onClick={() => updateProps("food")}>Food</button></li>
+            <li><button className="accessories" onClick={() => updateProps("accessories")}>Accessories</button></li>
+            <li><button className="tech" onClick={() => updateProps("tech")}>Tech</button></li>
+          </ul>
+        </div>
       </div>
     </div>
    )

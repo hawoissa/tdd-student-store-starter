@@ -1,3 +1,31 @@
 .subbar {
-   background-color: aliceblue;
+   height: 100px;
+   width: 100%;
+   display: block;
+   text-decoration: none;  
+}
+
+.subbar .content {
+   width: 70%;
+   margin: auto;
+   padding: 20px 0px 0px;
+}
+
+.subbar .content .input {
+   height: 50%;
+
+}
+
+input {
+   width: 198px;
+   height: 40px;
+}
+
+.subbar .content .category {
+   height: 50%;
+}
+
+button {
+   height: 40px;
+   width: 40px;
 }

@@ -1,11 +1,25 @@
-.banner {
-   width: 698px;
-   height: 350px;
-   background-color: aliceblue;
-   color: black;
-   display: block;
-   justify-self: center;
-   padding: 25px;
-   margin-bottom: 30px;
-   margin-top: 40px;
+.hero {
+   background-color: #00c385;
+   color: white;
+   height: 40vh;
+   width: 100%;
+   display: flex;
+   margin: 0 auto;
+   justify-content: space-around;
+   align-items: center;
+   max-width: 70vw;
+}
+
+.herowords {
+   width: 70%;
+   padding: 10px 0px 20px 50px;
+}
+
+.herowords h1 {
+   font-size: 60px;
+   margin: 0;
+}
+
+.herowords p {
+   font-size: 20px;
 }

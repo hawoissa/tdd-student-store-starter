@@ -1,44 +1,65 @@
-.navbar {
-   display: flex;
-   background-color: aliceblue;
-   color: black;
-   justify-content: space-around;
-   padding: 15px;
-  
+* {
+   margin: 0;
+   padding: 0;
 }
-
-.links {
+ .navbar {
+   height: 64px;
    width: 100%;
+   display: block;
+   background: #2c4047;
+   text-decoration: none;
 }
 
-.link > img {
-   width: 50px;
-   height: 50px;
+.navbar .content {
+   height: 100%;
+   width: 70%;
+   margin: auto;
+   display: flex;
+   flex-direction: row;
 }
 
-.link {
-   display: flex;   
-   padding-right: 10px;
+.navbar .content .logo {
+    width: 100px;
+    margin-right: 50px;
+}
+
+.navbar .content .logo img {
+   width: 60px;
+   height: 60px;
+}
+
+.navbar .content .socials {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+   width: 100px;
+   margin-right: 50px;
+}
+
+.navbar .content .socials img {
+   width: 18px;
+   height: 18px;
+}
+
+
+.navbar .content .links {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-around;
+   list-style-type: none;
+   margin-left: auto;
+   flex: 1;
+   max-width: 650px;
    text-decoration: none;
    list-style: none;
 }
 
-.link {
+.navbar .content .links li { 
+   list-style: none;
+   text-decoration: none;
+   display: inline;
    padding-left: 20px;
-   gap: 10px;
    text-decoration: none;
-}
-
-.link li a {
-   text-decoration: none;
-   color: black;   
-}
-.link li a:hover {
-   background-color: black;
-   color: white;
-}
-
-.link {
-   display: flex;
-   justify-content: space-between;
-}
+} 

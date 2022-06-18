@@ -2,10 +2,16 @@
    display: flex;
    flex-direction: row;
    justify-content: space-around;
-   background-color: aliceblue;
+}
+
+.footer-category  {
+   width: 90px;
+   height: 90px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
 }
 
 h6 {
    color: gray;
-   
 }

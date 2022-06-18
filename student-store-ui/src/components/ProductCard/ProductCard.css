@@ -1,16 +1,30 @@
 .productcard {
    padding-bottom: 10px;
-   max-width: 270px;
-   background-color: aliceblue;
+
    margin-bottom: 10px;
 }
 
-img {
+.productcard h1 {
+   display: none;
+}
+
+.productcard img {
    height: 250px;
    width: 248px;
 }
 
 .productcard.show {
    color: red;
+   height: 662px;
+   width: 800px;
+}
+
+.productcard.show h1 {
+   display: block;
+}
+
+.productcard.show img {
+   width: 798px;
+   height: 568px;
 }
 

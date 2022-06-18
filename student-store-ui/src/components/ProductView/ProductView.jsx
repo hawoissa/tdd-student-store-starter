@@ -9,8 +9,7 @@ export default function ProductView(props) {
    console.log(props);
    return (
       <div className="productview">
-
-         <ProductCard name={product.name} pic={product.image}
+         <ProductCard name={product.name} pic={product.image} id={product.id}
        price={product.price} description={product.description} showDescription={true}/>
       </div>
    )

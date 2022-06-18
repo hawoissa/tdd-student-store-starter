@@ -1,7 +1,32 @@
-.summary {
+
+.about {
+   margin: auto;
+   background-color: white;
+}
+
+.about .content .summary {
+   color: white;
+   padding: 30px;
+   display: flex;
+   flex-direction: row;
+   max-width: 60vw;
+}
+
+.about .content .summary .text {
+   background: rgb(217, 215, 215);
+   color: black;
+}
+
+.about .content .summary .image {
+   min-width: 400px;
+   padding: 40px;
+   background-color: #2c4047;
+}
+
+/* .summary {
    width: 698px;
    height: 330px;
    background-color: aliceblue;
    padding: 20px;
-}
+} */
 

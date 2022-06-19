@@ -31,6 +31,20 @@ Selling merchandise in the modern era requires digital solutions. For this proje
 - [ ] Build a page in the UI that displays the list of all past orders and lets the user click on any individual order to take them to a more detailed page of the transaction.
 - [ ] Allow users to use an input to filter orders by the email of the person who placed the order.
 
+### Reflections
+
+* Did the topics discussed in your labs prepare you to complete the assignment? Be specific, which features in your weekly assignment did you feel unprepared to complete?
+
+The topic in lab did somewhat help me prepare for this project but it ultimately wasn't enough. One particular feature that I did not feel prepared to complete was the BrowseRouter.
+
+* If you had more time, what would you have done differently? Would you have added additional features? Changed the way your project responded to a particular event, etc.
+
+I would have added more styling to the page and work more on the sidebar. The sidebar is lacking, so I will devote more time to work on it.
+
+* Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
+
+My demo went well as I talked about what I need to complete and have already completed. I noticed my peers worked on their add-item/remove-item features, I will definetly try to implement this next time.
+
 ### Passing Automated Tests
 
 The following specifications were met on the Express backend and the React frontend.

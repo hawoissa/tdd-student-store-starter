@@ -5,7 +5,7 @@ import ProductCard from "../ProductCard/ProductCard"
 export default function ProductGrid(props) {
    
    return (
-      <div className="productgrid">
+      <div className="productgrid" id="BuyNow">
          <div className="content">
             <div>
                <h1>Best Selling Products</h1>

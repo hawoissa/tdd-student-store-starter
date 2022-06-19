@@ -2,6 +2,12 @@
    margin: 0;
    padding: 0;
 }
+
+/* navbar links dont imediately jump, they scroll */
+html{
+   scroll-behavior: smooth;;
+ }
+
  .navbar {
    height: 64px;
    width: 100%;

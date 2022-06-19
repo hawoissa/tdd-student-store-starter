@@ -25,7 +25,29 @@
 
 }
 
-/* BUTTONS NEEDED*/
+.productcard .words {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding-right: 10px;
+}
+
+.productcard .btns .add, .productcard .btns .remove {
+   border: 1px solid black;
+   margin-left: 5px;
+}
+
+.productcard .quantity {
+   display: flex;
+   flex-direction: column;
+}
+
+.productcard .number {
+   margin-left: 5px;
+   margin-top: 10px;
+   display: flex;
+   justify-content: center;
+}
 
 /*  WHEN CLICK ON  */
 
@@ -60,5 +82,9 @@
 .productcard.show img {
    width: 800px;
    height: 568px;
+}
+
+.productcard.show .btns .add, .productcard.show .btns .remove {
+   margin-top: 5px;
 }
 

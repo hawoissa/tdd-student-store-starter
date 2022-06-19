@@ -1,4 +1,35 @@
-.sidebar img {
+/*   ifopen or close   */
+.sidebar .show .content-closed{
+   display: none;
+}
+
+.sidebar .notshow .content-closed{
+   display: block;
+}
+
+.sidebar .show .content-open{
+   display: block;
+}
+
+.sidebar .notshow .content-open{
+   display: none;
+}
+
+.sidebar {
+   height: 100%;
+}
+
+/* SIDEBAR CLOSE*/
+.sidebar .content-closed {
+   position: fixed;
+   background-color: #2c4047;
+   height: 100%;
+   padding: 10px;    
+   width: 80px;
+   border-right: 1px solid white;
+}
+
+.sidebar .content-closed img {
    width: 50px;
    height: 50px;
    display: flex;
@@ -6,29 +37,35 @@
    
 }
 
-.sidebar {
-   background-color: #2c4047;
-   padding: 10px;  
-   
-  
-}
-
-.sidebar .content {
-   position: fixed;
-   background-color: #2c4047;
-   height: 100%;
-   border-right: 1px solid white;
-   
-}
-
-.sidebar .content .i {
+.sidebar .content-closed .i {
    display: flex;
    flex-direction: column;
    margin-top: 30px;  
 }
 
-.sidebar .content .i button {
+.sidebar .content-closed .i button {
    padding-bottom: 40px;
    padding-right: 10px;
 }
 
+/* SIDEBAR OEPN  */
+
+.sidebar .show .content-open{
+   position: fixed;
+   top: 0;
+   left: 0;
+   height: 100%;
+   width: 575px; 
+   background: #2c4047;
+}
+
+.sidebar .show .content-open .button-close {
+   display: flex;
+   justify-content: center;
+   margin-top: 10px;
+}
+
+.sidebar .show .content-open .button-close img {
+   width: 50px;
+   height: 50px;
+}

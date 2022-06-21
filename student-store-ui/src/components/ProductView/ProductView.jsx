@@ -7,7 +7,8 @@ export default function ProductView(props) {
    return (
       <div className="productview">
          <ProductCard name={product.name} pic={product.image} id={product.id}
-       price={product.price} description={product.description} showDescription={true}/>
+       price={product.price} description={product.description} showDescription={true}
+       handleAddItemToCart={props.handleAddItemToCart} handleRemoveItemFromCart={props.handleRemoveItemFromCart}/>
       </div>
    )
 }

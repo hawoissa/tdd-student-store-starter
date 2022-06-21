@@ -34,17 +34,11 @@ export default function Navbar() {
           </svg>
         </div>
         <div className="links">
-          {/* <ul className="link"> */}
-            {/* <p id="link-home"><Link to="/">Home</Link></p>
-            <p className="link"><Link to="/#about">About</Link></p>
-            <p className="link"><Link to="/#contact">Contact</Link></p>
-            <p className="link"><Link to="/#buynow">Buy Now</Link></p> */}
             <p id="link-home"><a href="/">Home</a></p>
             <p className="link"><a href="/#About">About</a></p>
             <p className="link"><a href="/#Contact">Contact</a></p>
             <p className="link"><a href="/#BuyNow">Buy Now</a></p>
             <a href=""></a>
-          {/* </ul> */}
         </div>
     </div>
     </nav>

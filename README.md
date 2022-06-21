@@ -80,8 +80,8 @@ The following specifications were met on the Express backend and the React front
   - [ ] The `App.jsx` component should define handler functions to be passed as props to the `Home` and `ProductDetail` components.
     - [ ] Define as many as are needed.
     - [ ] At minimum, **create these five handlers**:
-      - [ ] The **`handleOnToggle`** function. When called...
-        - [ ] It should toggle the open/closed state of the `Sidebar`.
+      - [x] The **`handleOnToggle`** function. When called...
+        - [x] It should toggle the open/closed state of the `Sidebar`.
       - [ ] The **`handleAddItemToCart`** function. When called...
         - [ ] It should accept a single argument - `productId`
         - [ ] It should add that product to the `shoppingCart` if it doesn't exist, and set its quantity to `1`.
@@ -114,7 +114,7 @@ The following specifications were met on the Express backend and the React front
 **Navbar.jsx**
 
   - [x] Should render JSX that is wrapped by a `nav` element with a `className` of `navbar`
-  - [ ] Should render the `Logo` component that links to the `/` route when clicked
+  - [x] Should render the `Logo` component that links to the `/` route when clicked
 
 **Logo.jsx**
 
@@ -124,7 +124,7 @@ The following specifications were met on the Express backend and the React front
 **Home.jsx**
 
   - [x] Should render JSX that is wrapped by a `div` element with a `className` of `home`
-  - [ ] Should accept **at least** the following props:
+  - [x] Should accept **at least** the following props:
     - `products` - an array of product objects
     - `handleAddItemToCart` - handler function defined in the `App.jsx` component
     - `handleRemoveItemToCart` - handler function defined in the `App.jsx` component

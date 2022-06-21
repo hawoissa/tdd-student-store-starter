@@ -6,8 +6,9 @@
 
 .productgrid .content {
    height: 100%;
-   max-width: 80%;
-   margin: 50px auto;
+   max-width: 90%;
+   margin: 40px;
+   margin-left: 150px;
 }
 
 .productgrid .content .grid {

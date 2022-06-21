@@ -1,5 +1,7 @@
 import * as React from "react"
 import "./Sidebar.css"
+import ShoppingCart from "../ShoppingCart/ShoppingCart"
+import CheckoutForm from "../CheckoutForm/CheckoutForm"
 import arrow1 from "../pictures/arrow-right.png"
 import arrow2 from "../pictures/arrowleft.png"
 import pic1 from "../pictures/shoppingcart.png"
@@ -7,13 +9,9 @@ import pic2 from "../pictures/dollar.png"
 import pic3 from "../pictures/clipboardwhite.png"
 
 export default function Sidebar(props) {
-  //onClick={props.handleOnToggle('true')}
-  //onClick={props.handleOnToggle('false')}
-  //onClick={() => hello}
-  // isOpen ? return : return
-  
+
   let open = props.isOpen ? "show" : "notshow";
-  let show = props.isOpen ? "block" : "none";
+  
   return (
     <section className= "sidebar" >
       <div className={open}>
@@ -30,7 +28,13 @@ export default function Sidebar(props) {
       
         <div className="content-open" >
           <div className="button-close">
-          <button onClick={()=> props.handleOnToggle()}><img src={arrow2} alt="arrow" /></button>
+            <button onClick={()=> props.handleOnToggle()}><img src={arrow2} alt="arrow" /></button>
+          </div>
+          <div className="shoppingcart">
+            <ShoppingCart />
+          </div>
+          <div className="checkout">
+            <CheckoutForm />
           </div>
         </div>
 

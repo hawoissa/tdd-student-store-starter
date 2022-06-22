@@ -1,0 +1,42 @@
+.checkoutform {
+   margin: 12px;
+   height: 300px;
+}
+
+.checkoutform .content {
+   display: flex;
+   height: 100%;
+   flex-direction: column;
+   justify-content: space-around;
+   color: white;
+}
+
+.checkoutform h1 {
+   color: white;
+   display: flex;
+   justify-content: center;
+}
+
+.checkoutform img {
+   height: 30px;
+   width: 30px;
+   margin-left: 10px;
+}
+
+.checkoutform button {
+   color: white;
+   width: 200px;
+   height: 40px;
+   border: 1px solid white;
+   margin-left: 150px;
+   font-size: larger;
+}
+
+.checkoutform .content p {
+   padding-bottom: 5px;
+}
+
+.checkoutform .content input {
+   width: 500px;
+      
+}

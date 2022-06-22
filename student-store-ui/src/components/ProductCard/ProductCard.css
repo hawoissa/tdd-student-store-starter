@@ -34,8 +34,10 @@
 }
 
 .productcard .btns .add, .productcard .btns .remove {
-   border: 1px solid black;
+   border: 1px solid #00c385;
    margin-left: 5px;
+   color: #00c385;
+   margin-top: 5px;
 }
 
 .productcard .quantity {

@@ -2,16 +2,18 @@ import * as React from "react"
 import "./ProductCard.css"
 // import ProductGrid from "../ProductGrid/ProductGrid"
 import { Link } from "react-router-dom"
+import ShoppingCart from "../ShoppingCart/ShoppingCart";
 
 export default function ProductCard(props) {
    // true if the product card have been clicked on
    let description = props.showDescription ? "show" : ""; 
-   
+   // quantity={props.shoppingCart.length!=0 && props.shoppingCart.find((i) => i.itemId == product.id)!=undefined ? props.shoppingCart.find((i) => i.itemId == product.id).quantity : 0};
+   const quantity = props.shoppingCart && props.shoppingCart.length > 0 && props.shoppingCart.find((item) => item.id == props.id)?.quantity || 0;
    return (
       <div className={`productcard ${description}`}>
          
          
-         <h1>Product #{props.id}</h1>
+         {/* <h1>Product #{props.id}</h1> */}
          <div className="imgs">
             <Link to={`/products/${props.id}`}><img src={props.pic} alt="" /></Link>
          </div>
@@ -20,7 +22,7 @@ export default function ProductCard(props) {
             <div className="info">
                <p>{props.name}</p>
                <p className="rating">⭐️⭐️⭐️⭐️⭐️</p>
-               <h5>${(props.price)}</h5>
+               <h5>${props.price?.toFixed(2)}</h5>
             </div>
 
             <div className="description">
@@ -38,10 +40,9 @@ export default function ProductCard(props) {
                      </button>  
                   </div>
                </div>
-               <div className="number">
-               {/* <p>{props.quantity != 0 ? props.quantity : ""}</p> */}
+               <div id="number">
+               <p id="productQuantity">{quantity != 0 ? quantity : ""}</p>
                {/* quantity={props.shoppingCart.length!=0 && props.shoppingCart.find((i) => i.itemId == product.id)!=undefined ? props.shoppingCart.find((i) => i.itemId == product.id).quantity : 0} */}
-               <p>5</p> {/* <<<< PLACEHOLDER  */}
                </div>  
             </div>
 

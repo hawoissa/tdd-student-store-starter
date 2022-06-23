@@ -91,3 +91,11 @@
    margin-top: 5px;
 }
 
+#number {
+   color: white;
+   background-color: orange;
+   display: flex;
+   margin-top: 15px;
+   justify-content: center;
+}
+

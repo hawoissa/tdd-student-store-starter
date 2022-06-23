@@ -6,9 +6,11 @@ import submitPic from "../pictures/search.png"
 import axios from "axios"
 
 export default function Search(props) { 
-   
+  
+
   async function updateProps(selectedCategory) { 
       let originalProduct = await getData();
+      //let originalProduct = props.products;
       if (selectedCategory == "all") {
          props.setProducts(originalProduct);
       } else {      

@@ -57,6 +57,7 @@
    height: 100%;
    width: 575px; 
    background: #2c4047;
+   overflow: scroll;
 }
 
 .sidebar .show .content-open .button-close {

@@ -11,7 +11,7 @@ export default function ProductGrid(props) {
                <h1>Best Selling Products</h1>
             </div>
             <div className="grid">       
-               {props.props.products.map((product, index) => {
+               {props.products.map((product, index) => {
                return <ProductCard key={index} name={product.name} 
                   price={product.price} pic={product.image} 
                   category={product.category} id={product.id} 

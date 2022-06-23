@@ -1,9 +1,9 @@
-.checkoutform {
+.checkout-form {
    margin: 12px;
    height: 300px;
 }
 
-.checkoutform .content {
+.checkout-form .content {
    display: flex;
    height: 100%;
    flex-direction: column;
@@ -11,19 +11,19 @@
    color: white;
 }
 
-.checkoutform h1 {
+.checkout-form h1 {
    color: white;
    display: flex;
    justify-content: center;
 }
 
-.checkoutform img {
+.checkout-form img {
    height: 30px;
    width: 30px;
    margin-left: 10px;
 }
 
-.checkoutform button {
+.checkout-form button {
    color: white;
    width: 200px;
    height: 40px;
@@ -32,11 +32,11 @@
    font-size: larger;
 }
 
-.checkoutform .content p {
+.checkout-form .content p {
    padding-bottom: 5px;
 }
 
-.checkoutform .content input {
+.checkout-form .content input {
    width: 500px;
       
 }

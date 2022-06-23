@@ -31,13 +31,13 @@ export default function Sidebar(props) {
             <button onClick={()=> props.handleOnToggle()}><img src={arrow2} alt="arrow" /></button>
           </div>
           <div className="shoppingcart">
-            <ShoppingCart />
+            <ShoppingCart shoppingCart={props.shoppingCart} products={props.products} allProducts={props.allProducts}/>
           </div>
           <div className="checkout">
-            <CheckoutForm />
+            <CheckoutForm shoppingCart={props.shoppingCart} handleOnCheckoutFormChange={props.handleOnCheckoutFormChange}
+            handleOnSubmitCheckoutForm={props.handleOnSubmitCheckoutForm}/>
           </div>
         </div>
-
       </div>
     </section>
   )

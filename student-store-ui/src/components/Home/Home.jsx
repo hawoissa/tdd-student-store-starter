@@ -14,7 +14,7 @@ export default function Home(props) {
       <Hero />
       <Search products={props.products} setProducts={props.setProducts} 
           searchWord={props.searchWord} setSearchWord={props.setSearchWord}/>
-      <ProductGrid props={props}/>
+      <ProductGrid {...props}/>
       <About />
       <Contact />
       <Footer />

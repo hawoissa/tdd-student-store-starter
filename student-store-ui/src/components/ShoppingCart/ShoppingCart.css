@@ -1,0 +1,94 @@
+.shoppingcart {
+   margin: 12px;
+}
+
+.shoppingcart .content {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   color: white;
+}
+
+.shoppingcart h1 {
+   color: white;
+   display: flex;
+   justify-content: center;
+   margin-bottom: 20px;
+}
+
+.shoppingcart img {
+   height: 30px;
+   width: 30px;
+   margin-left: 10px;
+}
+
+.shoppingcart .emptyCart {
+   color: white;
+   text-align: center;
+   margin-bottom: 15px;
+   font-weight: 400;
+}
+
+.cart .top {
+   color: white;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   border: 1px solid white;
+   padding:20px;
+}
+
+.cart .top .name {
+   width: 100px;
+}
+
+.cart .bottom .productRow {
+   background: white;
+   color: black;
+   display: flex;
+   flex-direction: row;
+   /* justify-content: space-between; */
+   padding: 20px;
+   border: 1px solid whitesmoke;
+   
+}
+
+.cart .bottom .productRow .name {
+   width: 40%;
+}
+.cart .bottom .productRow .cost {
+   width: 20%;
+   display: flex;
+   justify-content: flex-end;
+}
+
+.cart .bottom .productRow .quantity {
+   width: 20%;
+}
+.cart .bottom .productRow .price {
+   width: 20%;
+   display: flex;
+   justify-content: center;
+}
+
+.cart .prices {
+   display: flex;
+   flex-direction: column;
+   margin-top: 8px;
+   background: white;
+   color: black;
+   border: 1px solid white;
+   padding: 3px;
+}
+
+.cart .prices .subtotal, .cart .prices .taxes, .cart .prices .total {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding: 6px 8px;
+   font-size: larger;
+}
+
+.cart .prices .total {
+   border-top: 1px solid whitesmoke;
+}

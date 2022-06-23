@@ -45,6 +45,7 @@ export default function ProductDetail(props) {
       <div className="productdetail">
          <ProductView product={product} id={productId} onClick={() => handleDescription}
          showDescription={props.showDescription} setShowDesciption={props.setShowDesciption}
+         shoppingCart={props.shoppingCart}
          handleAddItemToCart={props.handleAddItemToCart} handleRemoveItemFromCart={props.handleRemoveItemFromCart}/>
       </div>
       // : <NotFound />

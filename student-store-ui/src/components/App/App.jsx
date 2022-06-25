@@ -18,7 +18,7 @@ export default function App() {
   const [error, setError] = useState(""); // use to display a message
   const [isOpen, setIsOpen] = useState(false); //if sidebar is open
   const [shoppingCart, setShoppingCart] = useState([]); //ASK
-  const [checkingForm, setCheckingForm] = useState({name: "", email: ""});
+  const [checkoutForm, setCheckoutForm] = useState({name: "", email: ""});
   const [showDescription, setShowDesciption] = useState(false); // for  a expanding product
   const [searchWord, setSearchWord] = useState(""); //for searching for products
   const [allProducts, setAllProducts] = useState([]); 
@@ -101,21 +101,21 @@ export default function App() {
   }
 
   const handleOnCheckoutFormChange = (name, value) => {
-    setCheckingForm( {...checkingForm, [name]: value});
+    setCheckoutForm( {...checkoutForm, [name]: value});
   }
 
   const handleOnSubmitCheckoutForm = async () => {
     let url = "http://localhost:3001/store/";
     try {
-      const res = await axios.post(url, {user: {"name": checkingForm.name, "email": checkingForm.email}, shoppingCart: shoppingCart})
+      const res = await axios.post(url, {user: {"name": checkoutForm.name, "email": checkoutForm.email}, shoppingCart: shoppingCart})
       .catch((error) => setReceiptError(error.message)); //setReceiptError(error.message)    
       setReceipt(res.data.purchase.newPurchase.receipt);
       setShoppingCart([]);
       console.log("before");
-      console.log(checkingForm);
-      setCheckingForm({name:"", email:""});
+      console.log(checkoutForm);
+      setCheckoutForm({name:"", email:""});
       console.log("after");
-      console.log(checkingForm);
+      console.log(checkoutForm);
       setReceiptError("");
     } catch (error) {
       setReceiptError(error.message);
@@ -130,7 +130,7 @@ export default function App() {
       <Sidebar isOpen={isOpen} handleOnToggle={handleOnToggle} shoppingCart={shoppingCart} setShoppingCart={setShoppingCart} products={products} allProducts={allProducts}
       handleOnCheckoutFormChange={handleOnCheckoutFormChange} handleOnSubmitCheckoutForm={handleOnSubmitCheckoutForm} error={error}
       receipt={receipt} setReceipt={setReceipt} receiptError={receiptError} setReceiptError={setReceiptError}
-      checkingForm={checkingForm}/>
+      checkoutForm={checkoutForm}/>
         <main> 
           <Navbar />
           <Routes>

@@ -38,7 +38,7 @@ export default function Sidebar(props) {
             handleOnSubmitCheckoutForm={props.handleOnSubmitCheckoutForm}
             receipt={props.receipt} setReceipt={props.setReceipt} error={props.error}
             receiptError={props.receiptError} setReceiptError={props.setReceiptError} 
-            setShoppingCart={props.setShoppingCart} checkingForm={props.checkingForm}/>
+            setShoppingCart={props.setShoppingCart} checkoutForm={props.checkoutForm}/>
           </div>
         </div>
       </div>

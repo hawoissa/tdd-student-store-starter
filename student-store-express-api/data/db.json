@@ -1410,6 +1410,30 @@
         "Before taxes, the subtotal was $23.24",
         "After taxes and fees were applied, the total comes out to $25.27"
       ]
+    },
+    {
+      "id": 68,
+      "name": "EXAMPLE",
+      "email": "EXAMPLE",
+      "order": [
+        {
+          "id": 7,
+          "quantity": 1
+        },
+        {
+          "id": 8,
+          "quantity": 1
+        }
+      ],
+      "total": "27.17",
+      "purchasedAt": "2022-06-25T02:47:35.096Z",
+      "receipt": [
+        "Showing receipt for EXAMPLE available at EXAMPLE: ",
+        "1 total Striped Socks purchased at a cost of $4.99 for a total cost of $4.99",
+        "1 total Knitted Beanie purchased at a cost of $19.99 for a total cost of $19.99",
+        "Before taxes, the subtotal was $24.98",
+        "After taxes and fees were applied, the total comes out to $27.17"
+      ]
     }
   ]
 }

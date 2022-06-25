@@ -58,9 +58,10 @@ export default function Search(props) {
         <div className="row">
         <form >
           <input className="textarea" type="search" 
-          value={props.searchWord} placeholder="Search.." 
+          value={props.searchWord} placeholder={`Search..`}
           onInput={(input) => handleSearchWord(input.target.value)}/>
-          <button className="submit" type="submit"><img src={submitPic} className="button"/></button>
+          {/* <button id="button" className="submit" type="submit"></button>
+          <img src={submitPic} className="image"/> */}
         </form>
         </div>
         <div className="row">

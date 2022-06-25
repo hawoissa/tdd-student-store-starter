@@ -10,11 +10,11 @@ export default function ProductCard(props) {
    // quantity={props.shoppingCart.length!=0 && props.shoppingCart.find((i) => i.itemId == product.id)!=undefined ? props.shoppingCart.find((i) => i.itemId == product.id).quantity : 0};
    const quantity = props.shoppingCart && props.shoppingCart.length > 0 && props.shoppingCart.find((item) => item.id == props.id)?.quantity || 0;
    return (
-      <div className={`productcard ${description}`}>
+      <div className={`product-card ${description}`}>
          
          
          {/* <h1>Product #{props.id}</h1> */}
-         <div className="imgs">
+         <div className="media">
             <Link to={`/products/${props.id}`}><img src={props.pic} alt="" /></Link>
          </div>
 
@@ -22,10 +22,10 @@ export default function ProductCard(props) {
             <div className="info">
                <p>{props.name}</p>
                <p className="rating">⭐️⭐️⭐️⭐️⭐️</p>
-               <h5>${props.price?.toFixed(2)}</h5>
+               <h5 className="product-price">${props.price?.toFixed(2)}</h5>
             </div>
 
-            <div className="description">
+            <div className="product-description">
                <p>{props.description}</p>
             </div>
 
@@ -41,7 +41,7 @@ export default function ProductCard(props) {
                   </div>
                </div>
                <div id="number">
-               <p id="productQuantity">{quantity != 0 ? quantity : ""}</p>
+               <p id="product-quantity">{quantity != 0 ? quantity : ""}</p>
                {/* quantity={props.shoppingCart.length!=0 && props.shoppingCart.find((i) => i.itemId == product.id)!=undefined ? props.shoppingCart.find((i) => i.itemId == product.id).quantity : 0} */}
                </div>  
             </div>

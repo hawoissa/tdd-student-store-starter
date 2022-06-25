@@ -1,11 +1,9 @@
 .checkout-form {
    margin: 12px;
-   height: 300px;
 }
 
 .checkout-form .content {
    display: flex;
-   height: 100%;
    flex-direction: column;
    justify-content: space-around;
    color: white;
@@ -28,8 +26,9 @@
    width: 200px;
    height: 40px;
    border: 1px solid white;
-   margin-left: 150px;
+   /* margin-left: 150px; */
    font-size: larger;
+   margin: 10px 0px 10px 150px;
 }
 
 .checkout-form .content p {
@@ -38,5 +37,25 @@
 
 .checkout-form .content input {
    width: 500px;
-      
+   height: 40px;
+   padding: 10px;
+}
+
+.receipt {
+   margin: 20px 20px 40px 20px;
+}
+
+.receipt .success {
+   text-align: center;
+   color: greenyellow;
+   margin-bottom: 10px;
+}
+
+.error {
+   margin: 14px;
+   text-align: center;
+}
+
+.error h1 {
+   color: red;
 }

@@ -1,28 +1,28 @@
-.shoppingcart {
+.shopping-cart {
    margin: 12px;
 }
 
-.shoppingcart .content {
+.shopping-cart .content {
    display: flex;
    flex-direction: column;
    justify-content: space-around;
    color: white;
 }
 
-.shoppingcart h1 {
+.shopping-cart h1 {
    color: white;
    display: flex;
    justify-content: center;
    margin-bottom: 20px;
 }
 
-.shoppingcart img {
+.shopping-cart img {
    height: 30px;
    width: 30px;
    margin-left: 10px;
 }
 
-.shoppingcart .emptyCart {
+.shopping-cart .notification {
    color: white;
    text-align: center;
    margin-bottom: 15px;
@@ -53,7 +53,7 @@
    
 }
 
-.cart .bottom .productRow .name {
+.cart .bottom .productRow .cart-product-name {
    width: 40%;
 }
 .cart .bottom .productRow .cost {
@@ -62,7 +62,7 @@
    justify-content: flex-end;
 }
 
-.cart .bottom .productRow .quantity {
+.cart .bottom .productRow .cart-product-quantity {
    width: 20%;
 }
 .cart .bottom .productRow .price {
@@ -81,7 +81,7 @@
    padding: 3px;
 }
 
-.cart .prices .subtotal, .cart .prices .taxes, .cart .prices .total {
+.cart .prices .subtotal, .cart .prices .taxes, .cart .prices .total-price {
    display: flex;
    flex-direction: row;
    justify-content: space-between;
@@ -89,6 +89,6 @@
    font-size: larger;
 }
 
-.cart .prices .total {
+.cart .prices .total-price {
    border-top: 1px solid whitesmoke;
 }

@@ -6,7 +6,7 @@ import { useState } from "react";
 export default function ShoppingCart(props) {
    let show = props.shoppingCart.length > 0 ? "" : "hidden"; 
    return (
-      <div className="shoppingcart">
+      <div className="shopping-cart">
          <div className="title">
             <h1>Shopping Cart <img src={pic1} alt="Pic" /></h1>
          </div>
@@ -19,7 +19,7 @@ export default function ShoppingCart(props) {
 
 function EmptyCart(props) {
    return (
-      <div className="emptyCart">
+      <div className="notification">
          <p>No items added to cart yet. Start shopping now!</p>
       </div>
    )
@@ -56,7 +56,7 @@ function Cart(props) {
                   <div><h5>Taxes and Fees</h5></div>
                   <div><h5>${(totalAmount * 0.0875).toFixed(2)}</h5></div>
                </div>
-               <div className="total">
+               <div className="total-price">
                   <div><h5>Total</h5></div>
                   <div><h5>${(totalAmount * 1.0875).toFixed(2)}</h5></div>
                </div>
@@ -78,8 +78,8 @@ function ProductRow(props) {
    
    return (
       <div className="productRow">
-         <div className="name"><p>{name}</p></div>
-         <div className="quantity"><p>{quantity}</p></div>
+         <div className="cart-product-name"><p>{name}</p></div>
+         <div className="cart-product-quantity"><p>{quantity}</p></div>
          <div className="price"><p>${(props.product.price).toFixed(2)}</p></div>
          <div className="cost"><p>${(cost).toFixed(2)}</p></div>
       </div>

@@ -1,14 +1,15 @@
-import * as React from "react"
-import Navbar from "../Navbar/Navbar"
-import Sidebar from "../Sidebar/Sidebar"
-import Home from "../Home/Home"
-import "./App.css"
-import { useState } from "react"
-import { useEffect } from "react"
+import * as React from "react";
+import Navbar from "../Navbar/Navbar";
+import Sidebar from "../Sidebar/Sidebar";
+import Home from "../Home/Home";
+import "./App.css";
+import { useState } from "react";
+import { useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import axios from "axios"
-import ProductDetail from "../ProductDetail/ProductDetail"
+import axios from "axios";
+import ProductDetail from "../ProductDetail/ProductDetail";
 import NotFound from "../NotFound/NotFound";
+import CheckoutForm from "../CheckoutForm/CheckoutForm";
 
 export default function App() {
   //STATE VARIABLES
@@ -21,12 +22,14 @@ export default function App() {
   const [showDescription, setShowDesciption] = useState(false); // for  a expanding product
   const [searchWord, setSearchWord] = useState(""); //for searching for products
   const [allProducts, setAllProducts] = useState([]); 
+  const [receipt, setReceipt] = useState([]);
+  const [receiptError, setReceiptError] = useState("");
 
   // get data from api, use isFetching var to display loading, catch and show error
   const getData = async () => {
     setIsFetching(true);
     try {
-      const { data } = await axios.get("https://codepath-store-api.herokuapp.com/store");  
+      const { data } = await axios.get("http://localhost:3001/store/");  
       if (data.products.length > 0) {
         setProducts(data.products);
         setAllProducts(data.products);
@@ -101,23 +104,33 @@ export default function App() {
     setCheckingForm( {...checkingForm, [name]: value});
   }
 
-  const handleOnSubmitCheckoutForm = async (e) => {
-    e.preventDefault();
-    let url = "https://codepath-store-api.herokuapp.com/store";
+  const handleOnSubmitCheckoutForm = async () => {
+    let url = "http://localhost:3001/store/";
     try {
-      const res = await axios.post({url}, {user: checkingForm, shoppingCart: shoppingCart})
-      //do something with res
+      const res = await axios.post(url, {user: {"name": checkingForm.name, "email": checkingForm.email}, shoppingCart: shoppingCart})
+      .catch((error) => setReceiptError(error.message)); //setReceiptError(error.message)    
+      setReceipt(res.data.purchase.newPurchase.receipt);
+      setShoppingCart([]);
+      console.log("before");
+      console.log(checkingForm);
+      setCheckingForm({name:"", email:""});
+      console.log("after");
+      console.log(checkingForm);
+      setReceiptError("");
     } catch (error) {
-      setError(error);
-    }
+      setReceiptError(error.message);
+      //error.response.data.error.message
+    }  
   }
 
 
   return (
     <div className="app">
       <BrowserRouter>
-      <Sidebar isOpen={isOpen} handleOnToggle={handleOnToggle} shoppingCart={shoppingCart} products={products} allProducts={allProducts}
-      handleOnCheckoutFormChange={handleOnCheckoutFormChange} handleOnSubmitCheckoutForm={handleOnSubmitCheckoutForm}/>
+      <Sidebar isOpen={isOpen} handleOnToggle={handleOnToggle} shoppingCart={shoppingCart} setShoppingCart={setShoppingCart} products={products} allProducts={allProducts}
+      handleOnCheckoutFormChange={handleOnCheckoutFormChange} handleOnSubmitCheckoutForm={handleOnSubmitCheckoutForm} error={error}
+      receipt={receipt} setReceipt={setReceipt} receiptError={receiptError} setReceiptError={setReceiptError}
+      checkingForm={checkingForm}/>
         <main> 
           <Navbar />
           <Routes>
@@ -131,7 +144,7 @@ export default function App() {
             showDescription={showDescription} setShowDesciption={setShowDesciption}
             setShoppingCart={setShoppingCart} shoppingCart={shoppingCart}
             handleAddItemToCart={handleAddItemToCart} handleRemoveItemFromCart={handleRemoveItemFromCart}/> } />
-            <Route path="*" element={<NotFound />}/> //fiz this part
+            <Route path="/*" element={<NotFound />}/> //fiz this part
           </Routes> 
 
         </main>       
@@ -139,3 +152,35 @@ export default function App() {
     </div>
   )
 }
+
+// axios.post(`${LOCAL_PATH}`, {user:checkoutForm, shoppingCart:shoppingCart})
+// .then(function (response) {
+//   console.log(response);
+//   const receiptData = response.data.purchase.receipt;
+//   setReceipt(receiptData);
+//   setCheckoutForm({name:"", email:""});
+//   setShoppingCart([]);
+//   setError(null);
+//   setOrderSent(true);
+// })
+// .catch(function (error) {
+//   const errorData = error.response.data.error.message;
+//   setError(errorData);
+// })
+
+  
+
+// let url = "http://localhost:3001/store/";
+// //const res = await axios.post(url, {user: {"name": checkingForm.name, "email": checkingForm.email}, shoppingCart: shoppingCart})
+// axios.post(url, {user:{"name": checkingForm.name, "email": checkingForm.email}, shoppingCart:shoppingCart})
+// .then(function (response) {
+//   console.log(response);
+//   setReceipt(res.data.purchase.newPurchase.receipt);
+//   setShoppingCart([]);
+//   setCheckingForm({name: "", email: ""});
+//   console.log(checkingForm);
+//   setReceiptError("");
+// })
+// .catch(function (errorD) {
+//   setReceiptError(errorD.message);
+// }) 

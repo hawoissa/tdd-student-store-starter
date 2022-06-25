@@ -33,12 +33,12 @@ export default function Navbar() {
             <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
           </svg>
         </div>
-        <div className="links">
-            <p id="link-home"><a href="/">Home</a></p>
+        <div className="links"> 
+            <Link to="/"><p id="link-home">Home</p></Link>
             <p className="link"><a href="/#About">About</a></p>
             <p className="link"><a href="/#Contact">Contact</a></p>
             <p className="link"><a href="/#BuyNow">Buy Now</a></p>
-            <a href=""></a>
+            
         </div>
     </div>
     </nav>

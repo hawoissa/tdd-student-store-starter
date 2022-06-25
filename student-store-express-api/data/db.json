@@ -145,5 +145,1271 @@
       "price": 999.99
     }
   ],
-  "purchases": []
+  "purchases": [
+    {
+      "id": null,
+      "name": "Hawo",
+      "email": "hawo@gmail.com",
+      "order": [
+        {
+          "id": 1,
+          "quantity": 1
+        }
+      ],
+      "total": 0,
+      "purchasedAt": "2022-06-24T18:40:04.745Z"
+    },
+    {
+      "id": null,
+      "name": "Hawo",
+      "email": "hawo@gmail.com",
+      "order": [
+        {
+          "id": 1,
+          "quantity": 1
+        }
+      ],
+      "total": 0,
+      "purchasedAt": "2022-06-24T18:40:08.957Z"
+    },
+    {
+      "id": null,
+      "name": "Hawo",
+      "email": "hawo@gmail.com",
+      "order": [
+        {
+          "id": 1,
+          "quantity": 1
+        }
+      ],
+      "total": 0,
+      "purchasedAt": "2022-06-24T18:40:16.724Z"
+    },
+    {
+      "id": null,
+      "name": "Hawo",
+      "email": "hawo@gmail.com",
+      "order": [
+        {
+          "id": 1,
+          "quantity": 1
+        }
+      ],
+      "total": null,
+      "purchasedAt": "2022-06-24T18:47:27.087Z"
+    },
+    {
+      "id": null,
+      "name": "Hawo",
+      "email": "hawo@gmail.com",
+      "order": [
+        {
+          "id": 1,
+          "quantity": 1
+        }
+      ],
+      "total": null,
+      "purchasedAt": "2022-06-24T18:48:41.201Z"
+    },
+    {
+      "id": null,
+      "name": "Hawo",
+      "email": "hawo@gmail.com",
+      "order": [
+        {
+          "id": 1,
+          "quantity": 1
+        }
+      ],
+      "total": null,
+      "purchasedAt": "2022-06-24T18:49:11.039Z"
+    },
+    {
+      "id": null,
+      "name": "Hawo",
+      "email": "hawo@gmail.com",
+      "order": [
+        {
+          "id": 1,
+          "quantity": 1
+        }
+      ],
+      "total": 0,
+      "purchasedAt": "2022-06-24T18:49:44.881Z"
+    },
+    {
+      "id": null,
+      "name": "Hawo",
+      "email": "hawo@gmail.com",
+      "order": [
+        {
+          "id": 1,
+          "quantity": 1
+        }
+      ],
+      "total": 0,
+      "purchasedAt": "2022-06-24T18:50:09.733Z"
+    },
+    {
+      "id": null,
+      "name": "Hawo",
+      "email": "hawo@gmail.com",
+      "order": [
+        {
+          "id": 1,
+          "quantity": 1
+        }
+      ],
+      "total": 0,
+      "purchasedAt": "2022-06-24T18:50:31.450Z"
+    },
+    {
+      "id": null,
+      "name": "Hawo",
+      "email": "hawo@gmail.com",
+      "order": [
+        {
+          "id": 1,
+          "quantity": 1
+        }
+      ],
+      "total": 0,
+      "purchasedAt": "2022-06-24T18:50:45.378Z"
+    },
+    {
+      "id": null,
+      "name": "Hawo",
+      "email": "hawo@gmail.com",
+      "order": [
+        {
+          "id": 1,
+          "quantity": 1
+        }
+      ],
+      "total": 1.076625,
+      "purchasedAt": "2022-06-24T18:52:59.140Z"
+    },
+    {
+      "id": null,
+      "name": "Hawo",
+      "email": "hawo@gmail.com",
+      "order": [
+        {
+          "id": 1,
+          "quantity": 1
+        }
+      ],
+      "total": 1.076625,
+      "purchasedAt": "2022-06-24T18:53:05.093Z"
+    },
+    {
+      "id": null,
+      "name": "stephane",
+      "email": "mbengastephane34@gmail.com",
+      "order": [
+        {
+          "id": 2,
+          "quantity": 2
+        }
+      ],
+      "total": 3.2624999999999997,
+      "purchasedAt": "2022-06-24T18:55:24.363Z"
+    },
+    {
+      "id": null,
+      "name": "stephane",
+      "email": "mbengastephane34@gmail.com",
+      "order": [
+        {
+          "id": 2,
+          "quantity": 2
+        }
+      ],
+      "total": "3.26",
+      "purchasedAt": "2022-06-24T18:56:08.301Z"
+    },
+    {
+      "id": null,
+      "name": "stephane",
+      "email": "mbengastephane34@gmail.com",
+      "order": [
+        {
+          "id": 2,
+          "quantity": 2
+        }
+      ],
+      "total": "3.26",
+      "purchasedAt": "2022-06-24T18:58:53.098Z"
+    },
+    {
+      "id": null,
+      "name": "stephane",
+      "email": "mbengastephane34@gmail.com",
+      "order": [
+        {
+          "id": 2,
+          "quantity": 2
+        }
+      ],
+      "total": "3.26",
+      "purchasedAt": "2022-06-24T19:24:34.230Z",
+      "receipt": [
+        "Showing receipt for stephane available at mbengastephane34@gmail.com: ",
+        2
+      ]
+    },
+    {
+      "id": null,
+      "name": "stephane",
+      "email": "mbengastephane34@gmail.com",
+      "order": [
+        {
+          "id": 2,
+          "quantity": 2
+        }
+      ],
+      "total": "3.26",
+      "purchasedAt": "2022-06-24T19:39:24.723Z",
+      "receipt": [
+        "Showing receipt for stephane available at mbengastephane34@gmail.com: ",
+        "2 total Flamin Hot Cheetos purchased at a cost of $1.5 for a total cost of $3",
+        "Before taxes, the subtotal was ",
+        "After taxes and fees were applied, the total comes out to $3.2624999999999997"
+      ]
+    },
+    {
+      "id": null,
+      "name": "stephane",
+      "email": "mbengastephane34@gmail.com",
+      "order": [
+        {
+          "id": 2,
+          "quantity": 2
+        }
+      ],
+      "total": "3.26",
+      "purchasedAt": "2022-06-24T19:41:14.137Z",
+      "receipt": [
+        "Showing receipt for stephane available at mbengastephane34@gmail.com: ",
+        "2 total Flamin Hot Cheetos purchased at a cost of $1.5 for a total cost of $3",
+        "Before taxes, the subtotal was 3",
+        "After taxes and fees were applied, the total comes out to $3.2624999999999997"
+      ]
+    },
+    {
+      "id": null,
+      "name": "stephane",
+      "email": "mbengastephane34@gmail.com",
+      "order": [
+        {
+          "id": 2,
+          "quantity": 2
+        }
+      ],
+      "total": "3.26",
+      "purchasedAt": "2022-06-24T19:41:34.449Z",
+      "receipt": [
+        "Showing receipt for stephane available at mbengastephane34@gmail.com: ",
+        "2 total Flamin Hot Cheetos purchased at a cost of $1.5 for a total cost of $3",
+        "Before taxes, the subtotal was $3.00",
+        "After taxes and fees were applied, the total comes out to $3.2624999999999997"
+      ]
+    },
+    {
+      "id": null,
+      "name": "stephane",
+      "email": "mbengastephane34@gmail.com",
+      "order": [
+        {
+          "id": 2,
+          "quantity": 2
+        }
+      ],
+      "total": "3.26",
+      "purchasedAt": "2022-06-24T19:41:48.163Z",
+      "receipt": [
+        "Showing receipt for stephane available at mbengastephane34@gmail.com: ",
+        "2 total Flamin Hot Cheetos purchased at a cost of $1.5 for a total cost of $3",
+        "Before taxes, the subtotal was $3.00",
+        "After taxes and fees were applied, the total comes out to $3.26"
+      ]
+    },
+    {
+      "id": null,
+      "name": "stephane",
+      "email": "mbengastephane34@gmail.com",
+      "order": [
+        {
+          "id": 2,
+          "quantity": 2
+        }
+      ],
+      "total": "3.26",
+      "purchasedAt": "2022-06-24T19:42:00.502Z",
+      "receipt": [
+        "Showing receipt for stephane available at mbengastephane34@gmail.com: ",
+        "2 total Flamin Hot Cheetos purchased at a cost of $1.50 for a total cost of $3",
+        "Before taxes, the subtotal was $3.00",
+        "After taxes and fees were applied, the total comes out to $3.26"
+      ]
+    },
+    {
+      "id": null,
+      "name": "stephane",
+      "email": "mbengastephane34@gmail.com",
+      "order": [
+        {
+          "id": 2,
+          "quantity": 2
+        }
+      ],
+      "total": "3.26",
+      "purchasedAt": "2022-06-24T19:42:16.328Z",
+      "receipt": [
+        "Showing receipt for stephane available at mbengastephane34@gmail.com: ",
+        "2 total Flamin Hot Cheetos purchased at a cost of $1.50 for a total cost of $3",
+        "Before taxes, the subtotal was $3.00",
+        "After taxes and fees were applied, the total comes out to $3.26"
+      ]
+    },
+    {
+      "id": null,
+      "name": "stephane",
+      "email": "mbengastephane34@gmail.com",
+      "order": [
+        {
+          "id": 2,
+          "quantity": 2
+        }
+      ],
+      "total": "3.26",
+      "purchasedAt": "2022-06-24T19:48:13.566Z",
+      "receipt": [
+        "Showing receipt for stephane available at mbengastephane34@gmail.com: ",
+        "2 total Flamin Hot Cheetos purchased at a cost of $1.50 for a total cost of $3",
+        "Before taxes, the subtotal was $3.00",
+        "After taxes and fees were applied, the total comes out to $3.26"
+      ]
+    },
+    {
+      "id": null,
+      "name": "Hawo",
+      "email": "hawo@gmail.com",
+      "order": [
+        {
+          "id": 1,
+          "quantity": 1
+        }
+      ],
+      "total": "1.08",
+      "purchasedAt": "2022-06-24T19:48:16.403Z",
+      "receipt": [
+        "Showing receipt for Hawo available at hawo@gmail.com: ",
+        "1 total Rice Krispies purchased at a cost of $0.99 for a total cost of $0.99",
+        "Before taxes, the subtotal was $0.99",
+        "After taxes and fees were applied, the total comes out to $1.08"
+      ]
+    },
+    {
+      "id": null,
+      "name": "Hawo",
+      "email": "hawo@gmail.com",
+      "order": [
+        {
+          "id": 1,
+          "quantity": 1
+        }
+      ],
+      "total": "1.08",
+      "purchasedAt": "2022-06-24T19:58:47.900Z",
+      "receipt": [
+        "Showing receipt for Hawo available at hawo@gmail.com: ",
+        "1 total Rice Krispies purchased at a cost of $0.99 for a total cost of $0.99",
+        "Before taxes, the subtotal was $0.99",
+        "After taxes and fees were applied, the total comes out to $1.08"
+      ]
+    },
+    {
+      "id": null,
+      "name": "Hawo",
+      "email": "hawo@gmail.com",
+      "order": [
+        {
+          "id": 1,
+          "quantity": 1
+        }
+      ],
+      "total": "1.08",
+      "purchasedAt": "2022-06-24T20:12:03.517Z",
+      "receipt": [
+        "Showing receipt for Hawo available at hawo@gmail.com: ",
+        "1 total Rice Krispies purchased at a cost of $0.99 for a total cost of $0.99",
+        "Before taxes, the subtotal was $0.99",
+        "After taxes and fees were applied, the total comes out to $1.08"
+      ]
+    },
+    {
+      "id": null,
+      "name": "stephane",
+      "email": "mbengastephane34@gmail.com",
+      "order": [
+        {
+          "id": 2,
+          "quantity": 2
+        }
+      ],
+      "total": "3.26",
+      "purchasedAt": "2022-06-24T20:42:02.583Z",
+      "receipt": [
+        "Showing receipt for stephane available at mbengastephane34@gmail.com: ",
+        "2 total Flamin Hot Cheetos purchased at a cost of $1.50 for a total cost of $3",
+        "Before taxes, the subtotal was $3.00",
+        "After taxes and fees were applied, the total comes out to $3.26"
+      ]
+    },
+    {
+      "id": null,
+      "name": "Hawo",
+      "email": "hawo@gmail.com",
+      "order": [
+        {
+          "id": 1,
+          "quantity": 1
+        },
+        {
+          "id": 3,
+          "quantity": 2
+        }
+      ],
+      "total": "7.58",
+      "purchasedAt": "2022-06-24T20:43:15.459Z",
+      "receipt": [
+        "Showing receipt for Hawo available at hawo@gmail.com: ",
+        "1 total Rice Krispies purchased at a cost of $0.99 for a total cost of $0.99",
+        "2 total Cinnamon Rolls purchased at a cost of $2.99 for a total cost of $5.98",
+        "Before taxes, the subtotal was $6.97",
+        "After taxes and fees were applied, the total comes out to $7.58"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Hawo",
+      "email": "hawo@gmail.com",
+      "order": [
+        {
+          "id": 1,
+          "quantity": 1
+        },
+        {
+          "id": 3,
+          "quantity": 2
+        }
+      ],
+      "total": "7.58",
+      "purchasedAt": "2022-06-24T21:04:53.887Z",
+      "receipt": [
+        "Showing receipt for Hawo available at hawo@gmail.com: ",
+        "1 total Rice Krispies purchased at a cost of $0.99 for a total cost of $0.99",
+        "2 total Cinnamon Rolls purchased at a cost of $2.99 for a total cost of $5.98",
+        "Before taxes, the subtotal was $6.97",
+        "After taxes and fees were applied, the total comes out to $7.58"
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Hawo",
+      "email": "hawo@gmail.com",
+      "order": [
+        {
+          "id": 1,
+          "quantity": 4
+        },
+        {
+          "id": 3,
+          "quantity": 2
+        }
+      ],
+      "total": "10.81",
+      "purchasedAt": "2022-06-24T21:05:49.380Z",
+      "receipt": [
+        "Showing receipt for Hawo available at hawo@gmail.com: ",
+        "4 total Rice Krispies purchased at a cost of $0.99 for a total cost of $3.96",
+        "2 total Cinnamon Rolls purchased at a cost of $2.99 for a total cost of $5.98",
+        "Before taxes, the subtotal was $9.94",
+        "After taxes and fees were applied, the total comes out to $10.81"
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Hawo",
+      "email": "hawo@gmail.com",
+      "order": [
+        {
+          "id": 1,
+          "quantity": 4
+        },
+        {
+          "id": 3,
+          "quantity": 3
+        }
+      ],
+      "total": "14.06",
+      "purchasedAt": "2022-06-24T21:06:11.813Z",
+      "receipt": [
+        "Showing receipt for Hawo available at hawo@gmail.com: ",
+        "4 total Rice Krispies purchased at a cost of $0.99 for a total cost of $3.96",
+        "3 total Cinnamon Rolls purchased at a cost of $2.99 for a total cost of $8.97",
+        "Before taxes, the subtotal was $12.93",
+        "After taxes and fees were applied, the total comes out to $14.06"
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Issa",
+      "email": "hawo.com",
+      "order": [
+        {
+          "id": 14,
+          "quantity": 2
+        },
+        {
+          "id": 9,
+          "quantity": 1
+        }
+      ],
+      "total": "244.68",
+      "purchasedAt": "2022-06-24T21:23:59.514Z",
+      "receipt": [
+        "Showing receipt for Issa available at hawo.com: ",
+        "2 total Keyboard purchased at a cost of $110.00 for a total cost of $220",
+        "1 total Pullover Sweater purchased at a cost of $4.99 for a total cost of $4.99",
+        "Before taxes, the subtotal was $224.99",
+        "After taxes and fees were applied, the total comes out to $244.68"
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Issa",
+      "email": "hawo.com",
+      "order": [
+        {
+          "id": 4,
+          "quantity": 2
+        },
+        {
+          "id": 1,
+          "quantity": 1
+        }
+      ],
+      "total": "8.15",
+      "purchasedAt": "2022-06-24T22:32:57.167Z",
+      "receipt": [
+        "Showing receipt for Issa available at hawo.com: ",
+        "2 total Coconut Water purchased at a cost of $3.25 for a total cost of $6.5",
+        "1 total Rice Krispies purchased at a cost of $0.99 for a total cost of $0.99",
+        "Before taxes, the subtotal was $7.49",
+        "After taxes and fees were applied, the total comes out to $8.15"
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Issa",
+      "email": "hawo.com",
+      "order": [
+        {
+          "id": 4,
+          "quantity": 2
+        },
+        {
+          "id": 1,
+          "quantity": 1
+        }
+      ],
+      "total": "8.15",
+      "purchasedAt": "2022-06-24T22:45:21.877Z",
+      "receipt": [
+        "Showing receipt for Issa available at hawo.com: ",
+        "2 total Coconut Water purchased at a cost of $3.25 for a total cost of $6.5",
+        "1 total Rice Krispies purchased at a cost of $0.99 for a total cost of $0.99",
+        "Before taxes, the subtotal was $7.49",
+        "After taxes and fees were applied, the total comes out to $8.15"
+      ]
+    },
+    {
+      "id": 35,
+      "name": "hawo",
+      "email": "hawo.com",
+      "order": [
+        {
+          "id": 4,
+          "quantity": 1
+        }
+      ],
+      "total": "3.53",
+      "purchasedAt": "2022-06-24T22:46:10.655Z",
+      "receipt": [
+        "Showing receipt for hawo available at hawo.com: ",
+        "1 total Coconut Water purchased at a cost of $3.25 for a total cost of $3.25",
+        "Before taxes, the subtotal was $3.25",
+        "After taxes and fees were applied, the total comes out to $3.53"
+      ]
+    },
+    {
+      "id": 36,
+      "name": "hawo",
+      "email": "hawo.com",
+      "order": [
+        {
+          "id": 4,
+          "quantity": 1
+        }
+      ],
+      "total": "3.53",
+      "purchasedAt": "2022-06-24T22:46:35.002Z",
+      "receipt": [
+        "Showing receipt for hawo available at hawo.com: ",
+        "1 total Coconut Water purchased at a cost of $3.25 for a total cost of $3.25",
+        "Before taxes, the subtotal was $3.25",
+        "After taxes and fees were applied, the total comes out to $3.53"
+      ]
+    },
+    {
+      "id": 37,
+      "name": "hawo",
+      "email": "hawji",
+      "order": [],
+      "total": "0.00",
+      "purchasedAt": "2022-06-24T23:00:44.890Z",
+      "receipt": [
+        "Showing receipt for hawo available at hawji: ",
+        "Before taxes, the subtotal was $0.00",
+        "After taxes and fees were applied, the total comes out to $0.00"
+      ]
+    },
+    {
+      "id": 38,
+      "name": "hawo",
+      "email": "hawji",
+      "order": [
+        {
+          "id": 1,
+          "quantity": 1
+        },
+        {
+          "id": 3,
+          "quantity": 1
+        },
+        {
+          "id": 4,
+          "quantity": 2
+        }
+      ],
+      "total": "11.40",
+      "purchasedAt": "2022-06-24T23:03:11.923Z",
+      "receipt": [
+        "Showing receipt for hawo available at hawji: ",
+        "1 total Rice Krispies purchased at a cost of $0.99 for a total cost of $0.99",
+        "1 total Cinnamon Rolls purchased at a cost of $2.99 for a total cost of $2.99",
+        "2 total Coconut Water purchased at a cost of $3.25 for a total cost of $6.5",
+        "Before taxes, the subtotal was $10.48",
+        "After taxes and fees were applied, the total comes out to $11.40"
+      ]
+    },
+    {
+      "id": 39,
+      "name": "hawo",
+      "email": "hawji",
+      "order": [
+        {
+          "id": 1,
+          "quantity": 1
+        }
+      ],
+      "total": "1.08",
+      "purchasedAt": "2022-06-24T23:04:39.687Z",
+      "receipt": [
+        "Showing receipt for hawo available at hawji: ",
+        "1 total Rice Krispies purchased at a cost of $0.99 for a total cost of $0.99",
+        "Before taxes, the subtotal was $0.99",
+        "After taxes and fees were applied, the total comes out to $1.08"
+      ]
+    },
+    {
+      "id": 40,
+      "name": "hawo",
+      "email": "hawji",
+      "order": [
+        {
+          "id": 2,
+          "quantity": 1
+        }
+      ],
+      "total": "1.63",
+      "purchasedAt": "2022-06-24T23:12:37.882Z",
+      "receipt": [
+        "Showing receipt for hawo available at hawji: ",
+        "1 total Flamin Hot Cheetos purchased at a cost of $1.50 for a total cost of $1.5",
+        "Before taxes, the subtotal was $1.50",
+        "After taxes and fees were applied, the total comes out to $1.63"
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Issa",
+      "email": "hawo.com",
+      "order": [
+        {
+          "id": 4,
+          "quantity": 2
+        },
+        {
+          "id": 1,
+          "quantity": 1
+        }
+      ],
+      "total": "8.15",
+      "purchasedAt": "2022-06-25T00:21:47.781Z",
+      "receipt": [
+        "Showing receipt for Issa available at hawo.com: ",
+        "2 total Coconut Water purchased at a cost of $3.25 for a total cost of $6.5",
+        "1 total Rice Krispies purchased at a cost of $0.99 for a total cost of $0.99",
+        "Before taxes, the subtotal was $7.49",
+        "After taxes and fees were applied, the total comes out to $8.15"
+      ]
+    },
+    {
+      "id": 42,
+      "name": "njn",
+      "email": "jnj",
+      "order": [
+        {
+          "id": 2,
+          "quantity": 1
+        }
+      ],
+      "total": "1.63",
+      "purchasedAt": "2022-06-25T00:24:15.873Z",
+      "receipt": [
+        "Showing receipt for njn available at jnj: ",
+        "1 total Flamin Hot Cheetos purchased at a cost of $1.50 for a total cost of $1.5",
+        "Before taxes, the subtotal was $1.50",
+        "After taxes and fees were applied, the total comes out to $1.63"
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Hawo",
+      "email": "hawo.issa.site@codepath.org",
+      "order": [
+        {
+          "id": 2,
+          "quantity": 1
+        },
+        {
+          "id": 3,
+          "quantity": 1
+        }
+      ],
+      "total": "4.88",
+      "purchasedAt": "2022-06-25T00:25:36.920Z",
+      "receipt": [
+        "Showing receipt for Hawo available at hawo.issa.site@codepath.org: ",
+        "1 total Flamin Hot Cheetos purchased at a cost of $1.50 for a total cost of $1.5",
+        "1 total Cinnamon Rolls purchased at a cost of $2.99 for a total cost of $2.99",
+        "Before taxes, the subtotal was $4.49",
+        "After taxes and fees were applied, the total comes out to $4.88"
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Hawo",
+      "email": "hawo.issa.site@codepath.org",
+      "order": [
+        {
+          "id": 2,
+          "quantity": 1
+        },
+        {
+          "id": 3,
+          "quantity": 1
+        }
+      ],
+      "total": "4.88",
+      "purchasedAt": "2022-06-25T00:26:02.130Z",
+      "receipt": [
+        "Showing receipt for Hawo available at hawo.issa.site@codepath.org: ",
+        "1 total Flamin Hot Cheetos purchased at a cost of $1.50 for a total cost of $1.5",
+        "1 total Cinnamon Rolls purchased at a cost of $2.99 for a total cost of $2.99",
+        "Before taxes, the subtotal was $4.49",
+        "After taxes and fees were applied, the total comes out to $4.88"
+      ]
+    },
+    {
+      "id": 45,
+      "name": "hawo",
+      "email": "hawji",
+      "order": [
+        {
+          "id": 6,
+          "quantity": 1
+        }
+      ],
+      "total": "21.74",
+      "purchasedAt": "2022-06-25T00:26:44.605Z",
+      "receipt": [
+        "Showing receipt for hawo available at hawji: ",
+        "1 total Bar Code Shirts purchased at a cost of $19.99 for a total cost of $19.99",
+        "Before taxes, the subtotal was $19.99",
+        "After taxes and fees were applied, the total comes out to $21.74"
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Hawo",
+      "email": "hawo.issa.site@codepath.org",
+      "order": [
+        {
+          "id": 2,
+          "quantity": 1
+        }
+      ],
+      "total": "1.63",
+      "purchasedAt": "2022-06-25T00:27:06.072Z",
+      "receipt": [
+        "Showing receipt for Hawo available at hawo.issa.site@codepath.org: ",
+        "1 total Flamin Hot Cheetos purchased at a cost of $1.50 for a total cost of $1.5",
+        "Before taxes, the subtotal was $1.50",
+        "After taxes and fees were applied, the total comes out to $1.63"
+      ]
+    },
+    {
+      "id": 47,
+      "name": "hawo",
+      "email": "hawo.issa.site@codepath.org",
+      "order": [
+        {
+          "id": 2,
+          "quantity": 1
+        }
+      ],
+      "total": "1.63",
+      "purchasedAt": "2022-06-25T00:30:54.476Z",
+      "receipt": [
+        "Showing receipt for hawo available at hawo.issa.site@codepath.org: ",
+        "1 total Flamin Hot Cheetos purchased at a cost of $1.50 for a total cost of $1.5",
+        "Before taxes, the subtotal was $1.50",
+        "After taxes and fees were applied, the total comes out to $1.63"
+      ]
+    },
+    {
+      "id": 48,
+      "name": "hawo",
+      "email": "hawo.issa.site@codepath.org",
+      "order": [
+        {
+          "id": 8,
+          "quantity": 1
+        }
+      ],
+      "total": "21.74",
+      "purchasedAt": "2022-06-25T00:37:49.056Z",
+      "receipt": [
+        "Showing receipt for hawo available at hawo.issa.site@codepath.org: ",
+        "1 total Knitted Beanie purchased at a cost of $19.99 for a total cost of $19.99",
+        "Before taxes, the subtotal was $19.99",
+        "After taxes and fees were applied, the total comes out to $21.74"
+      ]
+    },
+    {
+      "id": 49,
+      "name": "hawo",
+      "email": "jiaw",
+      "order": [
+        {
+          "id": 2,
+          "quantity": 2
+        }
+      ],
+      "total": "3.26",
+      "purchasedAt": "2022-06-25T00:38:33.228Z",
+      "receipt": [
+        "Showing receipt for hawo available at jiaw: ",
+        "2 total Flamin Hot Cheetos purchased at a cost of $1.50 for a total cost of $3",
+        "Before taxes, the subtotal was $3.00",
+        "After taxes and fees were applied, the total comes out to $3.26"
+      ]
+    },
+    {
+      "id": 50,
+      "name": "sds",
+      "email": "dsds",
+      "order": [
+        {
+          "id": 2,
+          "quantity": 1
+        }
+      ],
+      "total": "1.63",
+      "purchasedAt": "2022-06-25T00:40:59.915Z",
+      "receipt": [
+        "Showing receipt for sds available at dsds: ",
+        "1 total Flamin Hot Cheetos purchased at a cost of $1.50 for a total cost of $1.5",
+        "Before taxes, the subtotal was $1.50",
+        "After taxes and fees were applied, the total comes out to $1.63"
+      ]
+    },
+    {
+      "id": 51,
+      "name": "sasa",
+      "email": "mkm",
+      "order": [
+        {
+          "id": 2,
+          "quantity": 1
+        }
+      ],
+      "total": "1.63",
+      "purchasedAt": "2022-06-25T00:48:34.960Z",
+      "receipt": [
+        "Showing receipt for sasa available at mkm: ",
+        "1 total Flamin Hot Cheetos purchased at a cost of $1.50 for a total cost of $1.5",
+        "Before taxes, the subtotal was $1.50",
+        "After taxes and fees were applied, the total comes out to $1.63"
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Hawo Issa",
+      "email": "hawo.issa.site@codepath.org",
+      "order": [
+        {
+          "id": 2,
+          "quantity": 2
+        },
+        {
+          "id": 6,
+          "quantity": 1
+        },
+        {
+          "id": 11,
+          "quantity": 1
+        }
+      ],
+      "total": "242.50",
+      "purchasedAt": "2022-06-25T00:49:17.409Z",
+      "receipt": [
+        "Showing receipt for Hawo Issa available at hawo.issa.site@codepath.org: ",
+        "2 total Flamin Hot Cheetos purchased at a cost of $1.50 for a total cost of $3",
+        "1 total Bar Code Shirts purchased at a cost of $19.99 for a total cost of $19.99",
+        "1 total Matching Rings purchased at a cost of $200.00 for a total cost of $200",
+        "Before taxes, the subtotal was $222.99",
+        "After taxes and fees were applied, the total comes out to $242.50"
+      ]
+    },
+    {
+      "id": 53,
+      "name": "sasa",
+      "email": "jiaw",
+      "order": [
+        {
+          "id": 6,
+          "quantity": 1
+        }
+      ],
+      "total": "21.74",
+      "purchasedAt": "2022-06-25T00:56:04.975Z",
+      "receipt": [
+        "Showing receipt for sasa available at jiaw: ",
+        "1 total Bar Code Shirts purchased at a cost of $19.99 for a total cost of $19.99",
+        "Before taxes, the subtotal was $19.99",
+        "After taxes and fees were applied, the total comes out to $21.74"
+      ]
+    },
+    {
+      "id": 54,
+      "name": "m",
+      "email": "e",
+      "order": [
+        {
+          "id": 4,
+          "quantity": 1
+        }
+      ],
+      "total": "3.53",
+      "purchasedAt": "2022-06-25T00:56:43.239Z",
+      "receipt": [
+        "Showing receipt for m available at e: ",
+        "1 total Coconut Water purchased at a cost of $3.25 for a total cost of $3.25",
+        "Before taxes, the subtotal was $3.25",
+        "After taxes and fees were applied, the total comes out to $3.53"
+      ]
+    },
+    {
+      "id": 55,
+      "name": "s",
+      "email": "s",
+      "order": [
+        {
+          "id": 6,
+          "quantity": 1
+        }
+      ],
+      "total": "21.74",
+      "purchasedAt": "2022-06-25T00:57:07.573Z",
+      "receipt": [
+        "Showing receipt for s available at s: ",
+        "1 total Bar Code Shirts purchased at a cost of $19.99 for a total cost of $19.99",
+        "Before taxes, the subtotal was $19.99",
+        "After taxes and fees were applied, the total comes out to $21.74"
+      ]
+    },
+    {
+      "id": 56,
+      "name": "s",
+      "email": "s",
+      "order": [
+        {
+          "id": 2,
+          "quantity": 1
+        }
+      ],
+      "total": "1.63",
+      "purchasedAt": "2022-06-25T00:58:01.978Z",
+      "receipt": [
+        "Showing receipt for s available at s: ",
+        "1 total Flamin Hot Cheetos purchased at a cost of $1.50 for a total cost of $1.5",
+        "Before taxes, the subtotal was $1.50",
+        "After taxes and fees were applied, the total comes out to $1.63"
+      ]
+    },
+    {
+      "id": 57,
+      "name": "hawo",
+      "email": "ds",
+      "order": [
+        {
+          "id": 2,
+          "quantity": 1
+        }
+      ],
+      "total": "1.63",
+      "purchasedAt": "2022-06-25T01:00:14.582Z",
+      "receipt": [
+        "Showing receipt for hawo available at ds: ",
+        "1 total Flamin Hot Cheetos purchased at a cost of $1.50 for a total cost of $1.5",
+        "Before taxes, the subtotal was $1.50",
+        "After taxes and fees were applied, the total comes out to $1.63"
+      ]
+    },
+    {
+      "id": 58,
+      "name": "hawo",
+      "email": "hawji",
+      "order": [
+        {
+          "id": 6,
+          "quantity": 1
+        }
+      ],
+      "total": "21.74",
+      "purchasedAt": "2022-06-25T01:00:39.146Z",
+      "receipt": [
+        "Showing receipt for hawo available at hawji: ",
+        "1 total Bar Code Shirts purchased at a cost of $19.99 for a total cost of $19.99",
+        "Before taxes, the subtotal was $19.99",
+        "After taxes and fees were applied, the total comes out to $21.74"
+      ]
+    },
+    {
+      "id": 59,
+      "name": "s",
+      "email": "df",
+      "order": [
+        {
+          "id": 6,
+          "quantity": 1
+        }
+      ],
+      "total": "21.74",
+      "purchasedAt": "2022-06-25T01:04:00.434Z",
+      "receipt": [
+        "Showing receipt for s available at df: ",
+        "1 total Bar Code Shirts purchased at a cost of $19.99 for a total cost of $19.99",
+        "Before taxes, the subtotal was $19.99",
+        "After taxes and fees were applied, the total comes out to $21.74"
+      ]
+    },
+    {
+      "id": 60,
+      "name": "ss",
+      "email": "ss",
+      "order": [
+        {
+          "id": 2,
+          "quantity": 1
+        }
+      ],
+      "total": "1.63",
+      "purchasedAt": "2022-06-25T01:06:29.678Z",
+      "receipt": [
+        "Showing receipt for ss available at ss: ",
+        "1 total Flamin Hot Cheetos purchased at a cost of $1.50 for a total cost of $1.5",
+        "Before taxes, the subtotal was $1.50",
+        "After taxes and fees were applied, the total comes out to $1.63"
+      ]
+    },
+    {
+      "id": 61,
+      "name": "HAWOOOOO",
+      "email": "hawo@gmail.com",
+      "order": [
+        {
+          "id": 2,
+          "quantity": 2
+        },
+        {
+          "id": 4,
+          "quantity": 2
+        },
+        {
+          "id": 3,
+          "quantity": 2
+        },
+        {
+          "id": 14,
+          "quantity": 1
+        }
+      ],
+      "total": "136.46",
+      "purchasedAt": "2022-06-25T01:10:43.625Z",
+      "receipt": [
+        "Showing receipt for HAWOOOOO available at hawo@gmail.com: ",
+        "2 total Flamin Hot Cheetos purchased at a cost of $1.50 for a total cost of $3",
+        "2 total Coconut Water purchased at a cost of $3.25 for a total cost of $6.5",
+        "2 total Cinnamon Rolls purchased at a cost of $2.99 for a total cost of $5.98",
+        "1 total Keyboard purchased at a cost of $110.00 for a total cost of $110",
+        "Before taxes, the subtotal was $125.48",
+        "After taxes and fees were applied, the total comes out to $136.46"
+      ]
+    },
+    {
+      "id": 62,
+      "name": "sdsd",
+      "email": "dsds",
+      "order": [
+        {
+          "id": 2,
+          "quantity": 1
+        }
+      ],
+      "total": "1.63",
+      "purchasedAt": "2022-06-25T01:37:35.375Z",
+      "receipt": [
+        "Showing receipt for sdsd available at dsds: ",
+        "1 total Flamin Hot Cheetos purchased at a cost of $1.50 for a total cost of $1.5",
+        "Before taxes, the subtotal was $1.50",
+        "After taxes and fees were applied, the total comes out to $1.63"
+      ]
+    },
+    {
+      "id": 63,
+      "name": "fsdw",
+      "email": "dfd",
+      "order": [
+        {
+          "id": 2,
+          "quantity": 1
+        }
+      ],
+      "total": "1.63",
+      "purchasedAt": "2022-06-25T01:52:11.276Z",
+      "receipt": [
+        "Showing receipt for fsdw available at dfd: ",
+        "1 total Flamin Hot Cheetos purchased at a cost of $1.50 for a total cost of $1.5",
+        "Before taxes, the subtotal was $1.50",
+        "After taxes and fees were applied, the total comes out to $1.63"
+      ]
+    },
+    {
+      "id": 64,
+      "name": "hawo",
+      "email": "dsds",
+      "order": [
+        {
+          "id": 2,
+          "quantity": 1
+        }
+      ],
+      "total": "1.63",
+      "purchasedAt": "2022-06-25T01:55:48.418Z",
+      "receipt": [
+        "Showing receipt for hawo available at dsds: ",
+        "1 total Flamin Hot Cheetos purchased at a cost of $1.50 for a total cost of $1.5",
+        "Before taxes, the subtotal was $1.50",
+        "After taxes and fees were applied, the total comes out to $1.63"
+      ]
+    },
+    {
+      "id": 65,
+      "name": "hawo",
+      "email": "hawji",
+      "order": [
+        {
+          "id": 1,
+          "quantity": 1
+        }
+      ],
+      "total": "1.08",
+      "purchasedAt": "2022-06-25T01:56:46.307Z",
+      "receipt": [
+        "Showing receipt for hawo available at hawji: ",
+        "1 total Rice Krispies purchased at a cost of $0.99 for a total cost of $0.99",
+        "Before taxes, the subtotal was $0.99",
+        "After taxes and fees were applied, the total comes out to $1.08"
+      ]
+    },
+    {
+      "id": 66,
+      "name": "hawo",
+      "email": "dsds",
+      "order": [
+        {
+          "id": 10,
+          "quantity": 1
+        }
+      ],
+      "total": "38.05",
+      "purchasedAt": "2022-06-25T01:57:06.102Z",
+      "receipt": [
+        "Showing receipt for hawo available at dsds: ",
+        "1 total Alpaca Wool Scarf purchased at a cost of $34.99 for a total cost of $34.99",
+        "Before taxes, the subtotal was $34.99",
+        "After taxes and fees were applied, the total comes out to $38.05"
+      ]
+    },
+    {
+      "id": 67,
+      "name": "hawo",
+      "email": "hawji",
+      "order": [
+        {
+          "id": 6,
+          "quantity": 1
+        },
+        {
+          "id": 4,
+          "quantity": 1
+        }
+      ],
+      "total": "25.27",
+      "purchasedAt": "2022-06-25T02:03:02.302Z",
+      "receipt": [
+        "Showing receipt for hawo available at hawji: ",
+        "1 total Bar Code Shirts purchased at a cost of $19.99 for a total cost of $19.99",
+        "1 total Coconut Water purchased at a cost of $3.25 for a total cost of $3.25",
+        "Before taxes, the subtotal was $23.24",
+        "After taxes and fees were applied, the total comes out to $25.27"
+      ]
+    }
+  ]
 }

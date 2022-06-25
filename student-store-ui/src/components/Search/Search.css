@@ -15,8 +15,8 @@
 } */
 
 
-input {
-   width: 198px;
+.subbar .content .row input {
+   width: 500px;
    height: 40px;
 }
 
@@ -28,6 +28,12 @@ input {
    border: none;
    background: none;
 }
+
+.subbar .content .row .image {
+   width: 40px;
+   height: 40px;
+}
+
 
 .subbar .categories button {
    font-size: large;
@@ -46,13 +52,12 @@ input {
 
  .categories ul, .buttons{
    display: flex;
-   flex-direction: row;
-   
+   flex-direction: row;  
  }
  
  .categories ul {
    justify-content: space-evenly;
-   width: 90%;
+   /* max-width: 90%; */
    gap:150px;
    margin-left: 50px;
    color:black;
@@ -64,4 +69,6 @@ input {
    margin: 0;
    padding: 0;
  }
+
+
 

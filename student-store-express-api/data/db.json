@@ -1434,6 +1434,49 @@
         "Before taxes, the subtotal was $24.98",
         "After taxes and fees were applied, the total comes out to $27.17"
       ]
+    },
+    {
+      "id": 69,
+      "name": "hawo",
+      "email": "hawo.issa.site@codepath.org",
+      "order": [
+        {
+          "id": 1,
+          "quantity": 1
+        }
+      ],
+      "total": "1.08",
+      "purchasedAt": "2022-06-25T02:55:35.797Z",
+      "receipt": [
+        "Showing receipt for hawo available at hawo.issa.site@codepath.org: ",
+        "1 total Rice Krispies purchased at a cost of $0.99 for a total cost of $0.99",
+        "Before taxes, the subtotal was $0.99",
+        "After taxes and fees were applied, the total comes out to $1.08"
+      ]
+    },
+    {
+      "id": 70,
+      "name": "hawo",
+      "email": "hawo@gmail.com",
+      "order": [
+        {
+          "id": 2,
+          "quantity": 2
+        },
+        {
+          "id": 4,
+          "quantity": 1
+        }
+      ],
+      "total": "6.80",
+      "purchasedAt": "2022-06-25T02:56:11.028Z",
+      "receipt": [
+        "Showing receipt for hawo available at hawo@gmail.com: ",
+        "2 total Flamin Hot Cheetos purchased at a cost of $1.50 for a total cost of $3",
+        "1 total Coconut Water purchased at a cost of $3.25 for a total cost of $3.25",
+        "Before taxes, the subtotal was $6.25",
+        "After taxes and fees were applied, the total comes out to $6.80"
+      ]
     }
   ]
 }

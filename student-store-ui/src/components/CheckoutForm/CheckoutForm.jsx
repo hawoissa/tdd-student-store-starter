@@ -58,8 +58,10 @@ function Error(props) {
    console.log(props.error);
    return (
       <div className="error">
-         <h1>Error</h1>
-         <h1>{props.error}</h1>
+         <h2>Error</h2>
+         <p>This error might be happening because: </p>
+         <p>Blank name or email.</p>
+         <p>or 0 items in cart.</p>
       </div>
    )
 }
